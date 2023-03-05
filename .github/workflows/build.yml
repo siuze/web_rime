@@ -99,7 +99,7 @@ jobs:
   #         npx playwright test --browser ${{ matrix.browser }} test-device/
 
   release:
-    # needs: test
+    needs: build
     runs-on: ubuntu-latest
     permissions:
       contents: write
