@@ -4,11 +4,12 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/LibreService/my_rime",
+  "homepage": "https://siuze.github.io/ShanRenMaLTS",
+  "projectpage" : "https://github.com/siuze/web_rime",
   "author": {
-    "name": "Qijia Liu",
-    "email": "liumeo@pku.edu.cn",
-    "url": "https://github.com/eagleoflqj"
+    "name": "Siuze",
+    "email": "ieksiuze@gmail.com",
+    "url": "https://notion.siuze.top"
   },
   "license": "AGPL-3.0-or-later",
   "scripts": {

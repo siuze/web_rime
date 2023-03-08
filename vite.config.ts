@@ -39,11 +39,11 @@ const plugins = [
     registerType: 'autoUpdate',
     workbox,
     manifest: {
-      name: 'My RIME',
-      short_name: 'My RIME',
+      name: 'ShanRenMaLTS',
+      short_name: 'ShanRenMaLTS',
       icons: [
         {
-          src: 'LibreService.svg',
+          src: 'ShanRenMaLTS.svg',
           sizes: 'any',
           type: 'image/svg+xml',
           purpose: 'any maskable',
