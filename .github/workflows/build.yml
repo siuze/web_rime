@@ -46,6 +46,7 @@ jobs:
           ./emsdk activate latest
       - name: Build wasm
         run: |
+          export ENABLE_LOGGING=ON
           . emsdk/emsdk_env.sh
           pnpm run native
           pnpm run schema
@@ -53,6 +54,7 @@ jobs:
           pnpm run wasm
       - name: Build
         run: |
+          export ENABLE_LOGGING=ON
           pnpm run build
       - name: Upload artifact
         if: ${{ github.ref == 'refs/heads/master' }}
